@@ -9,7 +9,7 @@ def directors_totals(nds)
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   directors_index = 0
 
-  result = {
+  totals = {
   }
 
     while directors_index < nds.length do
@@ -25,7 +25,7 @@ def directors_totals(nds)
 
       directors_index += 1
     end
- result
+ totals
 
   #
 
